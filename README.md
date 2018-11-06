@@ -8,3 +8,17 @@ Data Sources Used in this project:
 - Google Geocoding API
 - Foursquare API
 - Google PLaces API
+
+
+1. Introduction
+For this final assignment, we will explore and cluster the neighborhoods in Montréal. For that, we will compare the data from Foursquare API with data of nearby venues from Google Maps API. We want to know which API give us better information about places in Montréal, QC, Canada.
+
+For this problem, we need to have experience in cleaning data, working with API’s and data mining (clustering). 
+
+We will scrape the Wikipedia page and wrangle the data, clean it, and then read it into a pandas dataframe so that it is in a structured format like the Toronto dataset (Week 3) but the structure is not the same:
+
+Montréal: https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_H
+Toronto: https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
+
+For this project, we will need to work with Google Maps API. We will user Google Geocoding API in order the get the coordinates from Montréal and Google Places API in order to get all the places (radius=500). We will do the same process with the Foursquare API. 
+Next, we will clusters Neighborhoods in Montréal with both informations and we will compare Foursquare with Google API data.
