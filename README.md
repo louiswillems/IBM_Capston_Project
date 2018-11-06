@@ -14,7 +14,7 @@ Next, we will clusters Neighborhoods in Montréal with both informations and we 
 
 
 
-## 1. Data
+## 2. Data
 
 We will segment and cluster the neighborhoods in the city of Montréal and compare Foursquare API with Google Maps API data. Like Toronto neighborhood data, a Wikipedia page exists that has all the information we need to explore and cluster the neighborhoods in Montréal.
 
@@ -35,4 +35,4 @@ Data Sources Used in this project:
 - Postal codes in Montréal: https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_H
 - Google Geocoding API
 - Foursquare API
-- Google PLaces API
+- Google Places API
