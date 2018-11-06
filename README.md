@@ -1,4 +1,4 @@
-# IBM Capston Project
+# Comparing Information of places from Neighborhoods in Montreal: Foursquare API vs. Google API
 
 For this final assignment, we will explore and cluster the neighborhoods in Montréal. For that, we will compare the data from Foursquare API with data of nearby venues from Google Maps API. We want to know which API give us better information about places in Montréal, QC, Canada.
 
