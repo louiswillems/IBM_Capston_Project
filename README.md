@@ -1,4 +1,4 @@
-# IBM_Capston_Project
+# IBM Capston Project
 
 For this final assignment, we will explore and cluster the neighborhoods in Montréal. For that, we will compare the data from Foursquare API with data of nearby venues from Google Maps API. We want to know which API give us better information about places in Montréal, QC, Canada.
 
@@ -10,7 +10,8 @@ Data Sources Used in this project:
 - Google PLaces API
 
 
-1. Introduction
+## 1. Introduction
+
 For this final assignment, we will explore and cluster the neighborhoods in Montréal. For that, we will compare the data from Foursquare API with data of nearby venues from Google Maps API. We want to know which API give us better information about places in Montréal, QC, Canada.
 
 For this problem, we need to have experience in cleaning data, working with API’s and data mining (clustering). 
