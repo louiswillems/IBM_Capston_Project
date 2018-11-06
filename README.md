@@ -3,19 +3,15 @@
 
 ## 1. Introduction
 
-For this final assignment, we will explore and cluster the neighborhoods in Montréal. For that, we will compare the data from Foursquare API with data of nearby venues from Google Maps API. We want to know which API give us better information about places in Montréal, QC, Canada.
+For this final assignment, we will explore and cluster the neighborhoods in Montréal. For that, we will compare the data from Foursquare API with data of nearby venues from Google Maps API.
 
-For this problem, we need to have an experience in cleaning data, working with API’s and data mining (clustering). 
+Business problem: We want to know which API give us better information about places in Montréal, QC, Canada.
 
-Data Sources Used in this project:
-- Postal codes in Montréal: https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_H
-- Google Geocoding API
-- Foursquare API
-- Google PLaces API
+For this project, we need to have an experience in cleaning data, working with API’s and data mining (clustering). 
+We will need to work with Google Maps API and Foursquare API.More precisely, we will use Google Geocoding API in order the get the coordinates from Montréal and Google Places API in order to get all the places (radius=500). We will do the same process with the Foursquare API. 
 
+Next, we will clusters Neighborhoods in Montréal with both informations and we will compare Foursquare with Google API data
 
-For this project, we will need to work with Google Maps API. We will use Google Geocoding API in order the get the coordinates from Montréal and Google Places API in order to get all the places (radius=500). We will do the same process with the Foursquare API. 
-Next, we will clusters Neighborhoods in Montréal with both informations and we will compare Foursquare with Google API data.
 
 
 ## 1. Data
@@ -34,3 +30,9 @@ Once the data is in a structured format, we will use the Foursquare API in order
 Next, we are going to start utilizing the Google Maps Place API to get venues for all neighborhoods in Montréal and we will also cluster with K-means.
 
 Finally, we will map, compare and analyse clusters Neighborhoods in Montréal with both informations and conclude.
+
+Data Sources Used in this project:
+- Postal codes in Montréal: https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_H
+- Google Geocoding API
+- Foursquare API
+- Google PLaces API
